@@ -1,0 +1,5 @@
+---
+containers: 2 
+container_name: docker_ubuntu 
+container_image: ubuntu:18.04
+container_command: sleep 1d
