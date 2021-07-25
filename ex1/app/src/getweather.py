@@ -3,12 +3,8 @@ import pyowm
 from pyowm import OWM
 import sys
 
-""" OWM_API_KEY = os.environ['OWM_API_KEY']
-OWM_CITY = os.environ['OWM_CITY'] """
-
-OWM_API_KEY = '3a7fe26da8afb9fa8efdee83e73404cd'
-OWM_CITY = 'Honolulu'
-
+OWM_API_KEY = os.environ['OWM_API_KEY']
+OWM_CITY = os.environ['OWM_CITY']
 
 def get_weather():
     owm = OWM(OWM_API_KEY)
