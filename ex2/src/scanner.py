@@ -72,5 +72,7 @@ if __name__ == '__main__':
             host = str(ipaddress.IPv4Address(ip_int))
             print('\nScanning ' + host)
             scan_network(host, should_scan_udp)
+            print('Done')
     else: 
         scan_network(host_start, should_scan_udp)
+        print('Done')
