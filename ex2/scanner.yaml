@@ -10,6 +10,9 @@ spec:
         spec:
           containers:
           - name: scanner
-            image: vrusi/pannet-hiring-exercise
-            imagePullPolicy: IfNotPresent
+            image: busybox
+            args:
+            - /bin/sh
+            - -c
+            - date; echo OK
           restartPolicy: OnFailure
