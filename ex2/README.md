@@ -12,5 +12,5 @@ where:
 
 To run with docker: 
 ```
-docker run --rm vrusi/pannet-hiring-exercise localhost 127.0.0.3 0 
+docker run --rm vrusi/pannet-hiring-exercise [HOST_IP_RANGE_START] [HOST_IP_RANGE_END] [SCAN_UDP]
 ```
