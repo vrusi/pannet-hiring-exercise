@@ -41,8 +41,7 @@ def scan_network(host, should_scan_udp):
 
 if __name__ == '__main__':
 
-    print('Usage:') 
-    print('python scanner.py [host_range_start] [host_range_end] [should_scan_udp (0 | 1)]\n')
+    print('Usage: python scanner.py [host_range_start] [host_range_end] [should_scan_udp (0 | 1)]\n')
 
     target_start = sys.argv[1]
     host_start = socket.gethostbyname(target_start) 
